@@ -6,7 +6,9 @@ const lang = {
     experience: 'Experience',
     education: 'Education',
     skills: 'Skills',
+    hobbies: 'Hobbies',
     projects: 'Projects',
+    certifications: 'Certifications',
     contributions: 'Contributions',
     about: 'About me'
 };

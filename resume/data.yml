@@ -2,97 +2,104 @@
 # Any fields left unchanged, please delete so your resume is fully yours!
 
 name:
-  first: John
-  middle:
-  last: Doe
-about: Hi, my name is John Doe. I'm just about the most boring type of person you could
-       possibly imagine. I like collecting leaves from the tree in my back yard and documenting
-       each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.
-position: Software Developer
-
-birth:
-  year: 1990
-  location: New York
-
+  first: Marcin
+  last: Tym-Czarnocki
+about: My professional career began with developing solutions for DWH ecosystems.
+       So naturally I gained experience with MPP, high volume OLAP cubes and various ETL processing tools.
+       After a while, I got aboard with rising new approach towards data - Big Data.
+       The projects that I started with were using Hadoop and MapReduce jobs, which today are already considered old-school.
+       Currently I work mostly with Apache Flink, Apache Spark and Apache Kafka.
+       My programming language of choice is (weirdly) Go, but I feel comfortable with Scala as well.
+       As a side note, I am fluent in English which made my participation in international projects quite easy and enjoyable for my customers.
+position: Data Architect
 # you may add more experiences by duplicating the template
 
 experience:
-- company: Company A
+- company: G2A.COM
+  position: Data Architect, Dev Lead and Big Data Engineer
+  timeperiod: Since December 2016
+  description: Providing the enterprise with sufficient knowledge to transform its data landscape;
+               leading design and development of two data platform - Self-service Data Mesh and Data Warehouse; 
+               consulting dev teams on data related topics within their products
+
+- company: Atos IT Services, Global Delivery Center
+  position: Big Data Engineer
+  timeperiod: June 2014 - November 2016
+  description: Working only with non-locally based customers in areas of telco, healthcare and retail;
+               leading a project for Belgium retail chain building big data environment substituting legacy data warehouse;
+               development of a platform collecting logs from medical devices all over the globe
+
+- company: VBC
   position: Developer
-  timeperiod: since January 2016
-  description: Programming and watching cute cat videos.
-  website: https://example.com
+  timeperiod: January 2014 - May 2014
+  description: Maintenance of a telco warehouse in one of the biggest polish mobile service providers
 
-- company: Company B
-  position: Frontend Developer
-  timeperiod: January 2015 - December 2015
-  description: Fulfillment of extremely important tasks.
-
-- company: Company C
-  position: Trainee
-  timeperiod: March 2014 - December 2014
-  description: Making coffee and baking cookies.
+- company: Atos IT Services, Local Delivery Center
+  position: DWH Developer
+  timeperiod: May 2010 - December 2014
+  description: Working mostly with locally located telco customers;
+               maintenance and development of OLAP cubes; 2nd and 3rd support line for BI systems
 
 education:
-- degree: Master of Arts
-  timeperiod: March 2012 - December 2013
-  description: Major in Hacking and Computer Penetration, University A, New York, USA.
-  website: https://example.com
+- degree: MSc and BSc
+  timeperiod: 2006 - 2012
+  description: Faculty of Electronics and Information Technology, Major in decision support systems, University of Technology, Warsaw, Poland
 
-- degree: Bachelor of Science
-  timeperiod: March 2009 - December 2011
-  description: Major in Engineering, University B, Los Angeles, USA.
+certifications:
+  - name: HDP Certified Spark Developer
+    issuer: Hortonworks
+    url: https://68.169.53.46/bc/html/profile.jsp?k=qjxaqim
+
+  - name: Teradata 14 Certified Professional
+    issuer: Teradata
+    url: https://www.credly.com/badges/0d6e0596-793b-4a7e-8e72-07aa5dfcf504/linked_in_profile
+
+  - name: Data Science Associate
+    issuer: EMC
+    url: https://www.credly.com/badges/5e3699ce-ad31-44ae-ae36-ac92ff25e5c7/public_url
 
 # skill level goes from 0 to 100
 skills:
-- name: HTML5
-  level: 99
-- name: CSS3
-  level: 95
-- name: JavaScript
-  level: 97
-- name: Node.js
-  level: 93
-- name: Angular 2
-  level: 60
-- name: TypeScript
+- name: Data modelling
+  level: 90
+- name: Go
   level: 80
-- name: ES.Next
+- name: Apache Spark
   level: 70
+- name: Teradata
+  level: 70
+- name: Apache Flink
+  level: 60
+- name: Apache Kafka
+  level: 60
+- name: Scala
+  level: 50
 - name: Docker
-  level: 99
-knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
-  (English and Klingon).
-
-projects:
-- name: best-resume-ever
-  platform: Vue
-  timeperiod: February 2016
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS.
-  url: https://github.com/salomonelli/best-resume-ever
+  level: 50
 
 # optional, not all resume templates have hobbies included
 hobbies:
 - name: Video Games
   iconClass: fa fa-gamepad
-  url: https://example.com
 
-- name: Drawing
-  iconClass: fa fa-pencil
-  url: https://example.com
+- name: Skiing
+  iconClass: fa fa-snowflake-o
+
+- name: Foreign Languages
+  iconClass: fa fa-language
 
 contributions:
-- name: best-resume-ever
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes.
-  url: https://github.com/salomonelli/best-resume-ever
+- name: klio
+  description: Crossover between a framework for creating CLI tools and a package manager for installing them into your project.
+  url: https://github.com/g2a-com/klio
 
 contact:
-  email: john.doe@email.com
-  phone: 0123 456789
-  street: 1234 Broadway
-  city: New York
-  website: johndoe.com
-  github: johnyD
+  email: m.tymczarnocki@gmail.com
+  phone: 601251325
+  city: Warsaw, PL
+#  website: bigbaddata.eu
+  github: crazybarber
+  linkedin: marcin-tym-czarnocki
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
 lang: en
 `
